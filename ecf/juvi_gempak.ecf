@@ -1,0 +1,39 @@
+#PBS -N uvi_gempak
+#PBS -A %PROJ:UVI%-%PROJENVIR%
+#PBS -j oe
+#PBS -q %QUEUE%
+#PBS -S /bin/bash
+#PBS -l place=vscatter,select=1:ncpus=1:mem=500MB
+#PBS -l walltime=00:30:00
+#PBS -l debug=true
+
+export model=uvi
+
+%include <head.h>
+%include <envir-p1.h>
+
+export cyc=%CYC%
+export job=uvi_gempak_${cyc}
+
+#############################################
+###  module load
+##############################################
+module load intel/${intel_ver:?}
+module load gempak/${gempak_ver:?}
+module list
+
+# CALL executable job script here
+${HOMEuvi}/jobs/JUVI_GEMPAK
+
+%include <tail.h>
+%manual
+######################################################################
+# Purpose: Generate the Selected Cities and Traveler's Forecast Bulletins.
+######################################################################
+######################################################################
+# Job specific troubleshooting instructions:
+#  see generic troubleshoot manual page
+#
+######################################################################
+# include manual page below
+%end

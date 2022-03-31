@@ -1,0 +1,11 @@
+Chart # |filename|region_name|graph_loc|txtlox_t|txtloc_b
+
+UVINDEX1|uvin_ar.wrl.gif|World Region|0.02;0.07|0.5;0.97|0.5;0.1
+UVINDEX2|uvin_ar.sea.gif|Asia Region|0.05;0.07|0.5;0.96|0.5;0.10
+UVINDEX3|uvin_ar.afr.gif|Africa Region|0.07;0.07|0.5;0.97|0.5;0.10 
+UVINDEX4|uvin_ar.pac.gif|Pacific Region|0.07;0.07|0.5;0.97|0.5;0.10
+UVINDEX5|uvin_ar.soa.gif|Central and South America Region|0.07;0.07|0.5;0.97|0.5;0.10
+UVINDEX6|uvin_ar.kor.gif|Korea - Japan Region|0.07;0.07|0.5;0.97|0.5;0.10
+UVINDEX7|uvin_ar.eur.gif|Europe Region|0.05;0.07|0.5;0.97|0.5;0.10
+UVINDEX8|uvin_ar.swa.gif|Mideast Region|0.07;0.07|0.5;0.97|0.5;0.10
+UVINDEX9|uvin_ar.usa.gif|United States Region|0.02;0.07|0.5;0.97|0.5;0.10
