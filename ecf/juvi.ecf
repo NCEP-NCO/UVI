@@ -3,7 +3,7 @@
 #PBS -j oe
 #PBS -q %QUEUE%
 #PBS -S /bin/bash
-#PBS -l place=vscatter,select=1:ncpus=1:mem=500MB
+#PBS -l place=vscatter,select=1:ncpus=1:mem=5GB
 #PBS -l walltime=01:00:00
 #PBS -l debug=true
 
